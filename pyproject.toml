@@ -48,9 +48,6 @@ package-dir     = { openrouteservice = "openrouteservice" }
 [tool.setuptools.dynamic]
 dependencies    = { file = ["requirements.txt"] }
 
-[tool.setuptools.dynamic.optional-dependencies]
-dev  = { file = ["requirements_testing.txt"] }
-
 [tool.setuptools_scm]
 fallback_version = "v1.0.0"
 write_to         = "_version.py" # hardcode version number in a file

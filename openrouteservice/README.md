@@ -1,23 +1,12 @@
-# G3W-ADMIN-PDND
+---
+marp: false
+---
 
-A G3W-SUITE plugin for https://openrouteservice.org/ service
+# Openrouteservice G3W Suite plugin
 
-## Installation
+## Requirements
 
-(Change the following 1.0.0 example version number)
-```sh
-# Install module from github (v1.0.0)
-pip3 install git+https://github.com/g3w-suite/g3w-admin-openrouteservice.git@v1.0.0
-
-# Install module from github (dev branch)
-# pip3 install git+https://github.com/g3w-suite/g3w-admin-openrouteservice.git@dev
-
-# Install module from local folder (git development)
-# pip3 install -e /g3w-admin/plugins/openrouteservice
-
-# Install module from PyPi (not yet available)
-# pip3 install g3w-admin-openrouteservice
-```
+See: `requirements.txt` and `requirements_testing.txt` for running the test suite.
 
 ## Settings
 
